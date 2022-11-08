@@ -12,4 +12,9 @@ int main(int argc, char *argv[]) {
 	str[3]='\0';
 	
 	printf("%s\n",str);
+	
+	while(i!=4-1){
+		printf("%c",str[i]);
+		i++;
+	}
 }
